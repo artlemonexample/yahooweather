@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543CBB52D365CB65F1FBC0FB /* libPods-YahooWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40F3AFFCF9C8206A9D9A3F0 /* libPods-YahooWeather.a */; };
+		F0DE10621EDE0AFA000E925B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE10611EDE0AFA000E925B /* main.m */; };
+		F0DE10651EDE0AFA000E925B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE10641EDE0AFA000E925B /* AppDelegate.m */; };
+		F0DE106B1EDE0AFA000E925B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DE10691EDE0AFA000E925B /* Main.storyboard */; };
+		F0DE106D1EDE0AFA000E925B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0DE106C1EDE0AFA000E925B /* Assets.xcassets */; };
+		F0DE10701EDE0AFA000E925B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DE106E1EDE0AFA000E925B /* LaunchScreen.storyboard */; };
+		F0DE107D1EDE0BCD000E925B /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE107C1EDE0BCD000E925B /* YQL.m */; };
+		F0DE10801EDE8FC4000E925B /* LSCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE107F1EDE8FC4000E925B /* LSCitiesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		847D7AF04A857ECCE72C476D /* Pods-YahooWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-YahooWeather/Pods-YahooWeather.release.xcconfig"; sourceTree = "<group>"; };
+		8CA18E368E2C3E098FD474C8 /* Pods-YahooWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YahooWeather/Pods-YahooWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		E40F3AFFCF9C8206A9D9A3F0 /* libPods-YahooWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YahooWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0DE105D1EDE0AFA000E925B /* YahooWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0DE10611EDE0AFA000E925B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0DE10631EDE0AFA000E925B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0DE10641EDE0AFA000E925B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0DE106A1EDE0AFA000E925B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0DE106C1EDE0AFA000E925B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0DE106F1EDE0AFA000E925B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0DE10711EDE0AFA000E925B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DE107B1EDE0BCD000E925B /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
+		F0DE107C1EDE0BCD000E925B /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
+		F0DE107E1EDE8FC4000E925B /* LSCitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCitiesViewController.h; sourceTree = "<group>"; };
+		F0DE107F1EDE8FC4000E925B /* LSCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCitiesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0DE105A1EDE0AFA000E925B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543CBB52D365CB65F1FBC0FB /* libPods-YahooWeather.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1121656B06AE01FCC4A17032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40F3AFFCF9C8206A9D9A3F0 /* libPods-YahooWeather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8CA4ACC4789B13100F71376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CA18E368E2C3E098FD474C8 /* Pods-YahooWeather.debug.xcconfig */,
+				847D7AF04A857ECCE72C476D /* Pods-YahooWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0DE10541EDE0AFA000E925B = {
+			isa = PBXGroup;
+			children = (
+				F0DE105F1EDE0AFA000E925B /* YahooWeather */,
+				F0DE105E1EDE0AFA000E925B /* Products */,
+				C8CA4ACC4789B13100F71376 /* Pods */,
+				1121656B06AE01FCC4A17032 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0DE105E1EDE0AFA000E925B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0DE105D1EDE0AFA000E925B /* YahooWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0DE105F1EDE0AFA000E925B /* YahooWeather */ = {
+			isa = PBXGroup;
+			children = (
+				F0DE107A1EDE0B90000E925B /* Yahoo */,
+				F0DE10791EDE0B2F000E925B /* Models */,
+				F0DE10781EDE0B25000E925B /* Modules */,
+				F0DE10771EDE0B10000E925B /* AppFiles */,
+				F0DE10601EDE0AFA000E925B /* Supporting Files */,
+			);
+			path = YahooWeather;
+			sourceTree = "<group>";
+		};
+		F0DE10601EDE0AFA000E925B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0DE10611EDE0AFA000E925B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0DE10771EDE0B10000E925B /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F0DE10631EDE0AFA000E925B /* AppDelegate.h */,
+				F0DE10641EDE0AFA000E925B /* AppDelegate.m */,
+				F0DE10691EDE0AFA000E925B /* Main.storyboard */,
+				F0DE106C1EDE0AFA000E925B /* Assets.xcassets */,
+				F0DE106E1EDE0AFA000E925B /* LaunchScreen.storyboard */,
+				F0DE10711EDE0AFA000E925B /* Info.plist */,
+			);
+			name = AppFiles;
+			sourceTree = "<group>";
+		};
+		F0DE10781EDE0B25000E925B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F0DE107E1EDE8FC4000E925B /* LSCitiesViewController.h */,
+				F0DE107F1EDE8FC4000E925B /* LSCitiesViewController.m */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		F0DE10791EDE0B2F000E925B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F0DE107A1EDE0B90000E925B /* Yahoo */ = {
+			isa = PBXGroup;
+			children = (
+				F0DE107B1EDE0BCD000E925B /* YQL.h */,
+				F0DE107C1EDE0BCD000E925B /* YQL.m */,
+			);
+			name = Yahoo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0DE105C1EDE0AFA000E925B /* YahooWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0DE10741EDE0AFA000E925B /* Build configuration list for PBXNativeTarget "YahooWeather" */;
+			buildPhases = (
+				2EEFA9603BEBF401A3F2B223 /* 📦 Check Pods Manifest.lock */,
+				F0DE10591EDE0AFA000E925B /* Sources */,
+				F0DE105A1EDE0AFA000E925B /* Frameworks */,
+				F0DE105B1EDE0AFA000E925B /* Resources */,
+				F3427468BB59E5FE0F8C6B98 /* 📦 Embed Pods Frameworks */,
+				494067828C399EBFE9DDBDA6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YahooWeather;
+			productName = YahooWeather;
+			productReference = F0DE105D1EDE0AFA000E925B /* YahooWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0DE10551EDE0AFA000E925B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LemonSchool;
+				TargetAttributes = {
+					F0DE105C1EDE0AFA000E925B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F0DE10581EDE0AFA000E925B /* Build configuration list for PBXProject "YahooWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0DE10541EDE0AFA000E925B;
+			productRefGroup = F0DE105E1EDE0AFA000E925B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0DE105C1EDE0AFA000E925B /* YahooWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0DE105B1EDE0AFA000E925B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DE10701EDE0AFA000E925B /* LaunchScreen.storyboard in Resources */,
+				F0DE106D1EDE0AFA000E925B /* Assets.xcassets in Resources */,
+				F0DE106B1EDE0AFA000E925B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EEFA9603BEBF401A3F2B223 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		494067828C399EBFE9DDBDA6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YahooWeather/Pods-YahooWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3427468BB59E5FE0F8C6B98 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YahooWeather/Pods-YahooWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0DE10591EDE0AFA000E925B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DE107D1EDE0BCD000E925B /* YQL.m in Sources */,
+				F0DE10651EDE0AFA000E925B /* AppDelegate.m in Sources */,
+				F0DE10801EDE8FC4000E925B /* LSCitiesViewController.m in Sources */,
+				F0DE10621EDE0AFA000E925B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0DE10691EDE0AFA000E925B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0DE106A1EDE0AFA000E925B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0DE106E1EDE0AFA000E925B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0DE106F1EDE0AFA000E925B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0DE10721EDE0AFA000E925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0DE10731EDE0AFA000E925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0DE10751EDE0AFA000E925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA18E368E2C3E098FD474C8 /* Pods-YahooWeather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YahooWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ak.YahooWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0DE10761EDE0AFA000E925B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847D7AF04A857ECCE72C476D /* Pods-YahooWeather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YahooWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ak.YahooWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0DE10581EDE0AFA000E925B /* Build configuration list for PBXProject "YahooWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0DE10721EDE0AFA000E925B /* Debug */,
+				F0DE10731EDE0AFA000E925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0DE10741EDE0AFA000E925B /* Build configuration list for PBXNativeTarget "YahooWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0DE10751EDE0AFA000E925B /* Debug */,
+				F0DE10761EDE0AFA000E925B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0DE10551EDE0AFA000E925B /* Project object */;
+}
