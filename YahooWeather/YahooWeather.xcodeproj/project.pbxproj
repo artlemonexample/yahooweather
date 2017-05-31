@@ -7,17 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29F1BDBF1EDF244F00A12784 /* LSCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F1BDBE1EDF244F00A12784 /* LSCity.m */; };
+		29F1BDC11EDF259000A12784 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F1BDC01EDF259000A12784 /* MapKit.framework */; };
+		29F1BDC31EDF25A500A12784 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F1BDC21EDF25A500A12784 /* CoreLocation.framework */; };
+		29F1BDC61EDF262300A12784 /* LSDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F1BDC51EDF262300A12784 /* LSDataProvider.m */; };
+		29F1BDC91EDF268E00A12784 /* LSWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F1BDC81EDF268E00A12784 /* LSWeather.m */; };
+		29F1BDCC1EDF307800A12784 /* LSWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F1BDCB1EDF307800A12784 /* LSWeatherViewController.m */; };
 		543CBB52D365CB65F1FBC0FB /* libPods-YahooWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40F3AFFCF9C8206A9D9A3F0 /* libPods-YahooWeather.a */; };
 		F0DE10621EDE0AFA000E925B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE10611EDE0AFA000E925B /* main.m */; };
 		F0DE10651EDE0AFA000E925B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE10641EDE0AFA000E925B /* AppDelegate.m */; };
 		F0DE106B1EDE0AFA000E925B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DE10691EDE0AFA000E925B /* Main.storyboard */; };
 		F0DE106D1EDE0AFA000E925B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0DE106C1EDE0AFA000E925B /* Assets.xcassets */; };
 		F0DE10701EDE0AFA000E925B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DE106E1EDE0AFA000E925B /* LaunchScreen.storyboard */; };
-		F0DE107D1EDE0BCD000E925B /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE107C1EDE0BCD000E925B /* YQL.m */; };
 		F0DE10801EDE8FC4000E925B /* LSCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DE107F1EDE8FC4000E925B /* LSCitiesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29F1BDBD1EDF244F00A12784 /* LSCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCity.h; sourceTree = "<group>"; };
+		29F1BDBE1EDF244F00A12784 /* LSCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCity.m; sourceTree = "<group>"; };
+		29F1BDC01EDF259000A12784 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		29F1BDC21EDF25A500A12784 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		29F1BDC41EDF262300A12784 /* LSDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDataProvider.h; sourceTree = "<group>"; };
+		29F1BDC51EDF262300A12784 /* LSDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDataProvider.m; sourceTree = "<group>"; };
+		29F1BDC71EDF268E00A12784 /* LSWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWeather.h; sourceTree = "<group>"; };
+		29F1BDC81EDF268E00A12784 /* LSWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWeather.m; sourceTree = "<group>"; };
+		29F1BDCA1EDF307800A12784 /* LSWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWeatherViewController.h; sourceTree = "<group>"; };
+		29F1BDCB1EDF307800A12784 /* LSWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWeatherViewController.m; sourceTree = "<group>"; };
 		847D7AF04A857ECCE72C476D /* Pods-YahooWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-YahooWeather/Pods-YahooWeather.release.xcconfig"; sourceTree = "<group>"; };
 		8CA18E368E2C3E098FD474C8 /* Pods-YahooWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YahooWeather/Pods-YahooWeather.debug.xcconfig"; sourceTree = "<group>"; };
 		E40F3AFFCF9C8206A9D9A3F0 /* libPods-YahooWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YahooWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,8 +44,6 @@
 		F0DE106C1EDE0AFA000E925B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0DE106F1EDE0AFA000E925B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0DE10711EDE0AFA000E925B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0DE107B1EDE0BCD000E925B /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
-		F0DE107C1EDE0BCD000E925B /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
 		F0DE107E1EDE8FC4000E925B /* LSCitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCitiesViewController.h; sourceTree = "<group>"; };
 		F0DE107F1EDE8FC4000E925B /* LSCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCitiesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F1BDC31EDF25A500A12784 /* CoreLocation.framework in Frameworks */,
+				29F1BDC11EDF259000A12784 /* MapKit.framework in Frameworks */,
 				543CBB52D365CB65F1FBC0FB /* libPods-YahooWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +65,8 @@
 		1121656B06AE01FCC4A17032 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29F1BDC21EDF25A500A12784 /* CoreLocation.framework */,
+				29F1BDC01EDF259000A12784 /* MapKit.framework */,
 				E40F3AFFCF9C8206A9D9A3F0 /* libPods-YahooWeather.a */,
 			);
 			name = Frameworks;
@@ -85,7 +102,6 @@
 		F0DE105F1EDE0AFA000E925B /* YahooWeather */ = {
 			isa = PBXGroup;
 			children = (
-				F0DE107A1EDE0B90000E925B /* Yahoo */,
 				F0DE10791EDE0B2F000E925B /* Models */,
 				F0DE10781EDE0B25000E925B /* Modules */,
 				F0DE10771EDE0B10000E925B /* AppFiles */,
@@ -120,6 +136,8 @@
 			children = (
 				F0DE107E1EDE8FC4000E925B /* LSCitiesViewController.h */,
 				F0DE107F1EDE8FC4000E925B /* LSCitiesViewController.m */,
+				29F1BDCA1EDF307800A12784 /* LSWeatherViewController.h */,
+				29F1BDCB1EDF307800A12784 /* LSWeatherViewController.m */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -127,17 +145,14 @@
 		F0DE10791EDE0B2F000E925B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				29F1BDBD1EDF244F00A12784 /* LSCity.h */,
+				29F1BDBE1EDF244F00A12784 /* LSCity.m */,
+				29F1BDC71EDF268E00A12784 /* LSWeather.h */,
+				29F1BDC81EDF268E00A12784 /* LSWeather.m */,
+				29F1BDC41EDF262300A12784 /* LSDataProvider.h */,
+				29F1BDC51EDF262300A12784 /* LSDataProvider.m */,
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		F0DE107A1EDE0B90000E925B /* Yahoo */ = {
-			isa = PBXGroup;
-			children = (
-				F0DE107B1EDE0BCD000E925B /* YQL.h */,
-				F0DE107C1EDE0BCD000E925B /* YQL.m */,
-			);
-			name = Yahoo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0DE107D1EDE0BCD000E925B /* YQL.m in Sources */,
+				29F1BDC91EDF268E00A12784 /* LSWeather.m in Sources */,
+				29F1BDBF1EDF244F00A12784 /* LSCity.m in Sources */,
+				29F1BDC61EDF262300A12784 /* LSDataProvider.m in Sources */,
 				F0DE10651EDE0AFA000E925B /* AppDelegate.m in Sources */,
 				F0DE10801EDE8FC4000E925B /* LSCitiesViewController.m in Sources */,
 				F0DE10621EDE0AFA000E925B /* main.m in Sources */,
+				29F1BDCC1EDF307800A12784 /* LSWeatherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

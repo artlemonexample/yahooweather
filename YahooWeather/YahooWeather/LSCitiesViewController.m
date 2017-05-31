@@ -7,12 +7,12 @@
 //
 
 #import "LSCitiesViewController.h"
-
-#import "YQL.h"
+#import "LSDataProvider.h"
+#import "LSWeatherViewController.h"
 
 @interface LSCitiesViewController ()
 
-@property (nonatomic, strong) YQL *weatherProvider;
+@property (nonatomic, strong) NSArray* cities;
 
 @end
 
@@ -21,8 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSDictionary *result = [self.weatherProvider query:@"select * from weather.forecast where woeid=924938"];
-    NSLog(@"%@", result);
+    self.cities = [LSDataProvider cities];
+    
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,23 +31,32 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (YQL *)weatherProvider
-{
-    if (!_weatherProvider)
-    {
-        _weatherProvider = [YQL new];
-    }
-    return _weatherProvider;
-}
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
+    LSWeatherViewController *weatherController = [segue destinationViewController];
+    weatherController.city = self.cities[[self.tableView indexPathForCell:sender].row];
 }
-*/
+
+
+#pragma mark - UITableViewDataSource
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"city_cell" forIndexPath:indexPath];
+    
+    LSCity* city = [[self cities] objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = city.nameCity;
+    
+    return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.cities.count;
+}
 
 @end
